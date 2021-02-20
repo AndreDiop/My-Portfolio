@@ -23,7 +23,7 @@ function App() {
         <a className="nes-btn" href="#">
           Portfolio
         </a>
-        <a className="nes-btn" href="#">
+        <a className="nes-btn" href="https://docs.google.com/document/d/1dTJWmXF4xxfdqOr-1irQTLGApzNkcN9Xx62cDILAa9A/edit?usp=sharing">
           Resume
         </a>
         <a href="https://twitter.com/theandrediop">
