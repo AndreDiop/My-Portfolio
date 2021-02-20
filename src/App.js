@@ -12,7 +12,7 @@ function App() {
           About
         </a>
         <a className="nes-btn" href="#">
-          Skills
+          Contact
         </a>
         <a className="nes-btn" href="#">
           Portfolio
