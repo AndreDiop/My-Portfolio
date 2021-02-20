@@ -3,7 +3,7 @@ import React from 'react';
 const index = () => {
     return (
         <div>
-            <p>This is a page about me</p>
+            <h1>About Me</h1>
 
         </div>
     );
