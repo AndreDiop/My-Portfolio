@@ -37,45 +37,51 @@ function App() {
         </a>
       </div>
       <div className="nes-container is-rounded">
-      
-      <div className="nes-container is-rounded">
-        <About />
-        <section className="message -left">
-          <div className="nes-balloon ">
-            <p>
-              My name is Andre Diop and I am an Atlanta based full stack web
-              developer responsible for all parts of the development lifecycle.
-            </p>
-          </div>
-          <div className="nes-balloon from-left">
-            <p>
-              Aside from deploying awesomely responsive mobile first websites
-              and applications, I can be found training in Brazilian Jiu Jitsu
-              (I'm a blue belt), playing Settlers of Catan (I'm unstoppable) or
-              trying to master the Aerobie Orbiter (it's amazing!).
-            </p>
-          </div>
-        </section>
-        <img
-          src="https://media.giphy.com/media/7eW3Rof21dV3MZ948r/giphy.gif"
-          width="200"
-          height="200"
+        <div className="nes-container is-rounded">
+          <About />
+          <section className="message -left">
+            <div className="nes-balloon ">
+              <p>
+                My name is Andre Diop and I am an Atlanta based full stack web
+                developer responsible for all parts of the development
+                lifecycle.
+              </p>
+            </div>
+            <div className="nes-balloon from-left">
+              <p>
+                Aside from deploying awesomely responsive mobile first websites
+                and applications, I can be found training in Brazilian Jiu Jitsu
+                (I'm a blue belt), playing Settlers of Catan (I'm unstoppable)
+                or trying to master the Aerobie Orbiter (it's amazing!).
+              </p>
+            </div>
+          </section>
+          <img
+            src="https://media.giphy.com/media/7eW3Rof21dV3MZ948r/giphy.gif"
+            width="200"
+            height="200"
           />
-      </div>
+        </div>
 
-      <div className="nes-container with-title is-rounded">
-        <p className="title">
-          <h2>Skills</h2>
-        </p>
-        <p>Here you will see icons for stuff</p>
-        <i className="fab fa-js-square fa-5x"></i>
-        <i className="fab fa-react fa-5x"></i>
-        <i className="fab fa-npm fa-5x"></i>
-        <i className="fab fa-node fa-5x"></i>
-        <i className="fab fa-css3-alt fa-5x"></i>
-        <i className="fab fa-html5-alt fa-5x"></i>
+        <div className="nes-container with-title is-rounded">
+          <p className="title">
+            <h2>Skills</h2>
+          </p>
+          <p>Here you will see icons for stuff</p>
+
+          <i className="fab fa-js-square fa-5x"></i>
+          <i className="fab fa-react fa-5x"></i>
+          <i className="fab fa-npm fa-5x"></i>
+          <i className="fab fa-node fa-5x"></i>
+          <i className="fab fa-css3-alt fa-5x"></i>
+          <i className="fab fa-html5-alt fa-5x"></i>
+        </div>
+        <div className="nes-container with-title is-rounded">
+          <Portfolio />
+        <div className="nes-container with-title is-rounded">
+        </div>
+        </div>
       </div>
-          </div>
     </>
   );
 }
