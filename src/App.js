@@ -6,23 +6,32 @@ import Contact from "./containers/Contact";
 function App() {
   return (
     <>
-      <nav className="level">
-        <p className="level-item has-text-centered">
-          <a className="link is-info">Home</a>
-        </p>
-        <p className="level-item has-text-centered">
-          <a className="link is-info">Menu</a>
-        </p>
-        <p className="level-item has-text-centered">
-          <p>Andre Diop</p>
-        </p>
-        <p className="level-item has-text-centered">
-          <a className="link is-info">Reservations</a>
-        </p>
-        <p className="level-item has-text-centered">
-          <a className="link is-info">Contact</a>
-        </p>
-      </nav>
+      <div className="nes-container is-rounded">
+        <h1>Andre Diop</h1>
+        <a className="nes-btn" href="#">
+          About
+        </a>
+        <a className="nes-btn" href="#">
+          Skills
+        </a>
+        <a className="nes-btn" href="#">
+          Portfolio
+        </a>
+        <a className="nes-btn" href="#">
+          Resume
+        </a>
+        <a href="https://twitter.com/theandrediop">
+          <i className="nes-icon twitter is-medium"></i>
+        </a>
+        <a href="https://github.com/AndreDiop">
+          <i className="nes-icon github is-medium"></i>
+        </a>
+
+        <a href="https://www.linkedin.com/in/andre-diop-998754200/">
+          <i className="nes-icon linkedin is-medium"></i>
+        </a>
+      </div>
+
       <p>Hello world</p>
       <About />
       <Portfolio />
