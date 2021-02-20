@@ -1,4 +1,5 @@
 import React from "react";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import About from "./containers/About";
 import Portfolio from "./containers/Portfolio";
 import Contact from "./containers/Contact";
@@ -9,10 +10,8 @@ function App() {
     <>
       <div className="nes-container is-rounded with-title is-centered">
         <div className="title">
-          <h1>
-            Andre Diop
-            <p>Full Stack Web Developer</p>
-          </h1>
+          <h1>Andre Diop</h1>
+          <p>Full Stack Web Developer</p>
         </div>
         <a className="nes-btn" href="#">
           About
@@ -23,7 +22,10 @@ function App() {
         <a className="nes-btn" href="#">
           Portfolio
         </a>
-        <a className="nes-btn" href="https://docs.google.com/document/d/1dTJWmXF4xxfdqOr-1irQTLGApzNkcN9Xx62cDILAa9A/edit?usp=sharing">
+        <a
+          className="nes-btn"
+          href="https://docs.google.com/document/d/1dTJWmXF4xxfdqOr-1irQTLGApzNkcN9Xx62cDILAa9A/edit?usp=sharing"
+        >
           Resume
         </a>
         <a href="https://twitter.com/theandrediop">
@@ -98,6 +100,25 @@ function App() {
           </p>
         </div>
       </div>
+      <Router>
+        <Link to="/">About</Link>
+
+        <Link to="/Portfolio">Portfolio</Link>
+
+        <Link to="/Contact">Contact</Link>
+
+        <Switch>
+          <Route exact path="/">
+            <About />
+          </Route>
+          <Route path="/Portfolio">
+            <Portfolio />
+          </Route>
+          <Route path="/Contact">
+            <Contact />
+          </Route>
+        </Switch>
+      </Router>
     </>
   );
 }
