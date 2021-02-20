@@ -68,6 +68,12 @@ function App() {
           <h2>Skills</h2>
         </p>
         <p>Here you will see icons for stuff</p>
+        <i className="fab fa-js-square fa-5x"></i>
+        <i className="fab fa-react fa-5x"></i>
+        <i className="fab fa-npm fa-5x"></i>
+        <i className="fab fa-node fa-5x"></i>
+        <i className="fab fa-css3-alt fa-5x"></i>
+        <i className="fab fa-html5-alt fa-5x"></i>
       </div>
           </div>
     </>
