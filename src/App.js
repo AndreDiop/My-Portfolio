@@ -2,6 +2,7 @@ import React from "react";
 import About from "./containers/About";
 import Portfolio from "./containers/Portfolio";
 import Contact from "./containers/Contact";
+import Password from "./assets/passgen.png";
 
 function App() {
   return (
@@ -65,7 +66,7 @@ function App() {
 
         <div className="nes-container with-title is-rounded">
           <p className="title">
-            <h2>Skills</h2>
+            <h1>Skills</h1>
           </p>
           <p>Here you will see icons for stuff</p>
 
@@ -76,10 +77,25 @@ function App() {
           <i className="fab fa-css3-alt fa-5x"></i>
           <i className="fab fa-html5-alt fa-5x"></i>
         </div>
-        <div className="nes-container with-title is-rounded">
-          <Portfolio />
-        <div className="nes-container with-title is-rounded">
-        </div>
+        <Portfolio />
+        <div className="nes-container is-rounded">
+          <p className="nes-balloon nes-pointer">
+            <img src={Password} width="200" height="200" />
+
+            <a
+              className="nes-btn"
+              href="https://github.com/AndreDiop/Password-Generator"
+            >
+              Github Repo
+            </a>
+
+            <a
+              className="nes-btn is-primary"
+              href="https://andrediop.github.io/Password-Generator/"
+            >
+              Deployed Link
+            </a>
+          </p>
         </div>
       </div>
     </>
