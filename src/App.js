@@ -36,7 +36,8 @@ function App() {
           <i className="nes-icon linkedin is-medium"></i>
         </a>
       </div>
-
+      <div className="nes-container is-rounded">
+      
       <div className="nes-container is-rounded">
         <About />
         <section className="message -left">
@@ -48,7 +49,10 @@ function App() {
           </div>
           <div className="nes-balloon from-left">
             <p>
-            Aside from deploying awesomely responsive mobile first websites and applications, I can be found training in Brazilian Jiu Jitsu (I'm a blue belt), playing Settlers of Catan (I'm unstoppable) or trying to master the Aerobie Orbiter (it's amazing!).
+              Aside from deploying awesomely responsive mobile first websites
+              and applications, I can be found training in Brazilian Jiu Jitsu
+              (I'm a blue belt), playing Settlers of Catan (I'm unstoppable) or
+              trying to master the Aerobie Orbiter (it's amazing!).
             </p>
           </div>
         </section>
@@ -56,9 +60,16 @@ function App() {
           src="https://media.giphy.com/media/7eW3Rof21dV3MZ948r/giphy.gif"
           width="200"
           height="200"
-        />
+          />
       </div>
-      
+
+      <div className="nes-container with-title is-rounded">
+        <p className="title">
+          <h2>Skills</h2>
+        </p>
+        <p>Here you will see icons for stuff</p>
+      </div>
+          </div>
     </>
   );
 }
