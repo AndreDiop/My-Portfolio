@@ -5,7 +5,8 @@ import Portfolio from "./containers/Portfolio";
 import Contact from "./containers/Contact";
 import Landing from "./containers/Landing";
 import Password from "./assets/passgen.png";
-
+import Andre from "./assets/andreFull.png";
+import Start from "./assets/pressStart.png";
 function App() {
   return (
     <>
@@ -83,7 +84,7 @@ function App() {
             <i className="fab fa-html5-alt fa-5x"></i>
           </div>
           <Portfolio />
-          <div className="nes-container is-rounded">
+          <div className="nes-container is-rounded" id="landingContainer">
             <p className="nes-balloon nes-pointer">
               <img src={Password} width="200" height="200" />
 
@@ -102,13 +103,22 @@ function App() {
               </a>
             </p>
           </div>
+          <Landing />
+          <div
+            className="nes-container is-rounded is-dark"
+            id="landingLogoContainer"
+          >
+            <p className="nes-balloon nes-pointer">
+              <img src={Andre} id="landingLogo" />
+              <hr />
+              <Link to="/About">
+                <img src={Start} id="pressStart" />
+              </Link>
+            </p>
+          </div>
         </div>
 
-
-
-
-
-    {/* Below is commentted out so that when the handlers and dynamic loading occurs, 
+        {/* Below is commentted out so that when the handlers and dynamic loading occurs, 
     you can abstract the files to external location and just have this dynamically loading in a container 
     as each element is accessed.  */}
 
