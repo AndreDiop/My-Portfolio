@@ -84,13 +84,21 @@ function App() {
             <i className="fab fa-html5-alt fa-5x"></i>
           </div>
           <Portfolio />
-          <div className="nes-container is-rounded" id="landingContainer">
-            <p className="nes-balloon nes-pointer">
-              <img src={Password} width="200" height="200" />
-
+          <div className="nes-container is-rounded" id="portfolioContainer">
+            <p className="nes-balloon nes-pointer" id="portfolioCard">
+              <img
+                src={Password}
+                width="200"
+                height="200"
+                id="portfolioImage"
+              />
+              <hr />
+              <p>Name of the portfolio object</p>
+              <section />
               <a
                 className="nes-btn"
                 href="https://github.com/AndreDiop/Password-Generator"
+                id="portfolioRepoButton"
               >
                 Github Repo
               </a>
@@ -98,6 +106,7 @@ function App() {
               <a
                 className="nes-btn is-primary"
                 href="https://andrediop.github.io/Password-Generator/"
+                id="portfolioDeployLinkButton"
               >
                 Deployed Link
               </a>
@@ -110,7 +119,7 @@ function App() {
           >
             <p className="nes-balloon nes-pointer">
               <img src={Andre} id="landingLogo" />
-              <hr />
+              <section />
               <Link to="/About">
                 <img src={Start} id="pressStart" />
               </Link>
