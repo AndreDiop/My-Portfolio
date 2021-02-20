@@ -3,7 +3,7 @@ import React from 'react';
 const index = () => {
     return (
         <div>
-            <p>This is where you will find out contact info about me</p>
+            <h1>This will be a page that people see upon getting here</h1>
         </div>
     );
 };
