@@ -9,22 +9,22 @@
   {
     "id": "2",
     "name": "Tradecraft Messages",
-    "picture": "https://www.placecage.com/gif/100/100",
-    "githubLink": "www.cia.gov",
-    "deployedLink": "www.fbi.gov"
+    "picture": "http://placehold.it/32x32",
+    "githubLink": "https://github.com/AndreDiop/Tradecraft-Messages",
+    "deployedLink": "https://tradecraft-messages.herokuapp.com/"
   },
   {
     "id": "3",
-    "name": "Computers",
-    "picture": "https://www.placecage.com/gif/100/100",
-    "githubLink": "www.apple.com",
-    "deployedLink": "www.microsoft.com"
+    "name": "Promethium",
+    "picture": "http://placehold.it/32x32",
+    "githubLink": "https://github.com/AndreDiop/promethium",
+    "deployedLink": "https://promethium.herokuapp.com/"
   },
   {
     "id": "4",
-    "name": "Stores",
-    "picture": "https://www.placecage.com/gif/100/100",
-    "githubLink": "www.target.com",
-    "deployedLink": "www.walmart.com"
+    "name": "5 Day Weather Tracker",
+    "picture": "http://placehold.it/32x32",
+    "githubLink": "https://github.com/AndreDiop/5-Day-Forecast",
+    "deployedLink": "https://andrediop.github.io/5-Day-Forecast/"
   }
 ]
