@@ -9,8 +9,10 @@ const index = () => {
           id="navbarContainer"
         >
           <div className="title" id="navbarTitle">
+          <Link to="/">
             <h1 id="navbarName">Andre Diop</h1>
             <p>Full Stack Web Developer</p>
+          </Link>
           </div>
           <Link to="/About">
             <button className="nes-btn" id="aboutButton">

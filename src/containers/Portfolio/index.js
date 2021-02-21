@@ -3,9 +3,10 @@ import Password from "../../assets/passgen.png"
 const index = () => {
   return (
     <div>
-      <h1>Portfolio</h1>
       <div className="nes-container is-rounded" id="portfolioContainer">
+      <h1>Portfolio</h1>
         <p className="nes-balloon nes-pointer" id="portfolioCard">
+          <p>name here</p>
           <img
             src={Password}
             width="200"
@@ -13,9 +14,8 @@ const index = () => {
             id="portfolioImage"
             alt="Animated gif displaying the functionality of site"
           />
+          <br />
           <hr />
-          <p>name here</p>
-          <section />
           <a
             className="nes-btn"
             href="https://github.com/AndreDiop/Password-Generator"
