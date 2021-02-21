@@ -11,49 +11,59 @@ function App() {
   return (
     <>
       <Router>
-        <div className="nes-container is-rounded with-title is-centered">
-          <div className="title">
-            <h1>Andre Diop</h1>
+        <div
+          className="nes-container is-rounded with-title is-centered"
+          id="navbarContainer"
+        >
+          <div className="title" id="navbarTitle">
+            <h1 id="navbarName">Andre Diop</h1>
             <p>Full Stack Web Developer</p>
           </div>
           <Link to="/About">
-            <button className="nes-btn">About</button>
+            <button className="nes-btn" id="aboutButton">
+              About
+            </button>
           </Link>
           <Link to="/Portfolio">
-            <button className="nes-btn">Contact</button>
+            <button className="nes-btn" id="contactButton">
+              Contact
+            </button>
           </Link>
           <Link to="/Contact">
-            <button className="nes-btn">Portfolio</button>
+            <button className="nes-btn" id="portfolioButton">
+              Portfolio
+            </button>
           </Link>
           <a
             className="nes-btn"
             href="https://docs.google.com/document/d/1dTJWmXF4xxfdqOr-1irQTLGApzNkcN9Xx62cDILAa9A/edit?usp=sharing"
+            id="resumeButton"
           >
             Resume
           </a>
           <a href="https://twitter.com/theandrediop">
-            <i className="nes-icon twitter is-medium"></i>
+            <i className="nes-icon twitter is-medium" id="twitterIcon"></i>
           </a>
           <a href="https://github.com/AndreDiop">
-            <i className="nes-icon github is-medium"></i>
+            <i className="nes-icon github is-medium" id="githubIcon"></i>
           </a>
 
           <a href="https://www.linkedin.com/in/andre-diop-998754200/">
-            <i className="nes-icon linkedin is-medium"></i>
+            <i className="nes-icon linkedin is-medium" id="linkedinIcon"></i>
           </a>
         </div>
-        <div className="nes-container is-rounded">
-          <div className="nes-container is-rounded">
+        <div className="nes-container is-rounded" id="mainContainer">
+          <div className="nes-container is-rounded" id="aboutContainer">
             <About />
-            <section className="message -left">
-              <div className="nes-balloon ">
+            <section className="message" id="aboutMessageSection">
+              <div className="nes-balloon " id="aboutBalloon">
                 <p>
                   My name is Andre Diop and I am an Atlanta based full stack web
                   developer responsible for all parts of the development
                   lifecycle.
                 </p>
               </div>
-              <div className="nes-balloon from-left">
+              <div className="nes-balloon from-left" id="aboutBalloonLeft">
                 <p>
                   Aside from deploying awesomely responsive mobile first
                   websites and applications, I can be found training in
@@ -67,15 +77,20 @@ function App() {
               src="https://media.giphy.com/media/7eW3Rof21dV3MZ948r/giphy.gif"
               width="200"
               height="200"
+              alt="8-bit stylized picture of Andre Diop"
+              id="8bitAndre"
             />
           </div>
 
-          <div className="nes-container with-title is-rounded">
-            <p className="title">
+          <div
+            className="nes-container with-title is-rounded"
+            id="skillsContainer"
+          >
+            <p className="title" id="skillsHeader">
               <h1>Skills</h1>
             </p>
             <p>Here you will see icons for stuff</p>
-
+            {/* You can map over these iconse by changing after the fa- */}
             <i className="fab fa-js-square fa-5x"></i>
             <i className="fab fa-react fa-5x"></i>
             <i className="fab fa-npm fa-5x"></i>
@@ -91,6 +106,7 @@ function App() {
                 width="200"
                 height="200"
                 id="portfolioImage"
+                alt="Animated gif displaying the functionality of one of my works"
               />
               <hr />
               <p>Name of the portfolio object</p>
@@ -118,10 +134,14 @@ function App() {
             id="landingLogoContainer"
           >
             <p className="nes-balloon nes-pointer">
-              <img src={Andre} id="landingLogo" />
+              <img
+                src={Andre}
+                id="landingLogo"
+                alt="Andre Diop full stack engineer stylized in 8-bit"
+              />
               <section />
               <Link to="/About">
-                <img src={Start} id="pressStart" />
+                <img src={Start} id="pressStart" alt="Press start text" />
               </Link>
             </p>
           </div>
