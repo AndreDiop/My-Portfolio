@@ -1,11 +1,11 @@
 import React from "react";
 
-const index = (data) => {
+const index = ({name, picture, deployedLink,githubLink}) => {
   return (
     <div className="nes-balloon nes-pointer" id="portfolioCard">
-      <p> {data.name}</p>
+      <p> {name}</p>
       <img
-        src={data.picture}
+        src={picture}
         width="200"
         height="200"
         id="id"
@@ -13,13 +13,13 @@ const index = (data) => {
       />
 
       <hr />
-      <a className="nes-btn" href={data.githubLink} id="portfolioRepoButton">
+      <a className="nes-btn" href={githubLink} id="portfolioRepoButton">
         Github Repo
       </a>
 
       <a
         className="nes-btn is-primary"
-        href={data.deployLink}
+        href={deployedLink}
         id="portfolioDeployLinkButton"
       >
         Deployed Link
