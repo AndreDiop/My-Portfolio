@@ -12,11 +12,11 @@ function App() {
   return (
     <>
       <Router>
-        <div className="nes-container is-rounded" id="mainContainer">
-          <Switch>
-            <Route exact path="/">
-              <Landing />
-            </Route>
+        <Switch>
+          <Route exact path="/">
+            <Landing />
+          </Route>
+          <div className="nes-container is-rounded" id="mainContainer">
             <Route path="/About">
               <Navbar />
               <About />
@@ -33,8 +33,8 @@ function App() {
               <Navbar />
               <Skills />
             </Route>
-          </Switch>
         </div>
+          </Switch>
       </Router>
     </>
   );
