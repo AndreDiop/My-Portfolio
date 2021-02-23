@@ -8,9 +8,7 @@ const index = () => {
         <h1>About Me</h1>
         <section className="message" id="aboutMessageSection">
           <div className="nes-balloon " id="aboutBalloon">
-            <p>
-              My name is Andre Diop and I am an Atlanta based full stack web
-              developer responsible for all parts of the development lifecycle.
+            <p> My name is Andre Diop and I am an Atlanta based Software Engineer  focused on fullstack technologies. I am responsible for all parts of the development lifecycle bringing a creative and aesthetic touch to all projects, along with a penchant for meeting deadlines.
             </p>
           </div>
           <div className="nes-balloon from-left" id="aboutBalloonLeft">
