@@ -6,8 +6,8 @@ const index = ({name, picture, deployedLink,githubLink}) => {
       <p> {name}</p>
       <img
         src={picture}
-        width="200"
-        height="200"
+        width="360"
+        height="180"
         id="id"
         alt="alt text here"
       />
