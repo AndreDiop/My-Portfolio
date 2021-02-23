@@ -7,9 +7,21 @@
      align-items: center;
  }
  #pressStart {
+    padding-left: 175px
+    
 
  }
  #landingLogo {
 
 
  }
+
+#pressStart {
+    animation: blinker 1s linear infinite;
+  }
+  
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
