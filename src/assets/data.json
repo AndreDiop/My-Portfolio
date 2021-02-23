@@ -4,27 +4,46 @@
     "name": "Password Generator",
     "picture": "http://placehold.it/32x32",
     "githubLink": "https://github.com/AndreDiop/Password-Generator",
-    "deployedLink": "https://andrediop.github.io/Password-Generator/"
+    "deployedLink": "https://andrediop.github.io/Password-Generator/",
+    "icon": "fab fa-css3-alt fa-5x"
   },
   {
     "id": "2",
     "name": "Tradecraft Messages",
     "picture": "http://placehold.it/32x32",
     "githubLink": "https://github.com/AndreDiop/Tradecraft-Messages",
-    "deployedLink": "https://tradecraft-messages.herokuapp.com/"
+    "deployedLink": "https://tradecraft-messages.herokuapp.com/",
+    "icon": "fab fa-html5 fa-5x "
   },
   {
     "id": "3",
     "name": "Promethium",
     "picture": "http://placehold.it/32x32",
     "githubLink": "https://github.com/AndreDiop/promethium",
-    "deployedLink": "https://promethium.herokuapp.com/"
+    "deployedLink": "https://promethium.herokuapp.com/",
+    "icon": " fab fa-bootstrap fa-5x"
   },
   {
     "id": "4",
     "name": "5 Day Weather Tracker",
     "picture": "http://placehold.it/32x32",
     "githubLink": "https://github.com/AndreDiop/5-Day-Forecast",
-    "deployedLink": "https://andrediop.github.io/5-Day-Forecast/"
+    "deployedLink": "https://andrediop.github.io/5-Day-Forecast/",
+    "icon": "fab fa-react fa-5x "
+  },
+  {
+    "icon": "fab fa-jquery fa-5x"
+  },
+  {
+    "icon": "fab fa-node fa-5x"
+  },
+  {
+    "icon": "fab fa-npm fa-5x"
+  },
+  {
+    "icon": "fab fa-css3-alt fa-5x"
+  },
+  {
+    "icon": "fab fa-js-square fa-5x"
   }
 ]
