@@ -1,6 +1,7 @@
 import React from "react";
 import PortfolioCard from "../PortfolioCard";
 import Works from "../../assets/data.json";
+import "../Portfolio/styles.css"
 const index = () => {
   return (
     <div>
