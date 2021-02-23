@@ -20,38 +20,29 @@ const index = () => {
             </button>
           </Link>
           <Link to="/Skills">
-            <button className="nes-btn" id="contactButton">
+            <button className="nes-btn is-primary" id="contactButton">
               Skills
             </button>
           </Link>
           <Link to="/Portfolio">
-            <button className="nes-btn" id="portfolioButton">
+            <button className="nes-btn is-success" id="portfolioButton">
               Portfolio
             </button>
           </Link>
           <Link to="/Contact">
-            <button className="nes-btn" id="contactButton">
+            <button className="nes-btn is-warning" id="contactButton">
               Contact
             </button>
           </Link>
 
           <a
-            className="nes-btn"
+            className="nes-btn is-error"
             href="https://docs.google.com/document/d/1dTJWmXF4xxfdqOr-1irQTLGApzNkcN9Xx62cDILAa9A/edit?usp=sharing"
             id="resumeButton"
           >
             Resume
           </a>
-          <a href="https://twitter.com/theandrediop">
-            <i className="nes-icon twitter is-medium" id="twitterIcon"></i>
-          </a>
-          <a href="https://github.com/AndreDiop">
-            <i className="nes-icon github is-medium" id="githubIcon"></i>
-          </a>
 
-          <a href="https://www.linkedin.com/in/andre-diop-998754200/">
-            <i className="nes-icon linkedin is-medium" id="linkedinIcon"></i>
-          </a>
         </div> 
         </div>
     );
