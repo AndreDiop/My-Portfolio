@@ -1,4 +1,5 @@
 import React from "react";
+import "../About/styles.css";
 
 const index = () => {
   return (
@@ -21,12 +22,13 @@ const index = () => {
             </p>
           </div>
         </section>
+
         <img
           src="https://media.giphy.com/media/7eW3Rof21dV3MZ948r/giphy.gif"
           width="200"
           height="200"
           alt="8-bit stylized picture of Andre Diop"
-          id="8bitAndre"
+          id="andrePicture"
         />
       </div>
     </div>
