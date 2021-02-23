@@ -1,6 +1,6 @@
 import React from "react";
 import "../Skills/styles.css";
-import Icons from "../../assets/data.json";
+import Icons from "../../assets/icons.json";
 import Icon from "../Icon";
 const index = () => {
   console.log(Icons);
@@ -11,9 +11,8 @@ const index = () => {
 
         <p>Languages and frameworks that I use</p>
 
-        {Icons.map((icon) =>(
+        {Icons.map((icon) => (
           <Icon {...icon} />
-          
         ))}
       </div>
     </div>
