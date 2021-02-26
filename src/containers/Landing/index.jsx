@@ -2,16 +2,14 @@ import React from 'react'
 import Andre from '../../assets/andreFull.png'
 import Start from '../../assets/pressStart.png'
 import { Link } from 'react-router-dom'
-import "../Landing/styles.css"
+import '../Landing/styles.css'
 
 const index = () => {
   return (
-    <div >
-      <div
-        className='nes-container is-rounded is-dark'
-        id='landingLogoContainer'
-      >
-        <p className='nes-balloon nes-pointer' id="logoBalloon">
+    <div id="bg">
+      <div className='nes-container is-rounded' id='landingLogoContainer'>
+        {/* <img src='http://i.imgur.com/tTKyQb0.gif' id="bg" /> */}
+        <p className='nes-balloon nes-pointer' id='logoBalloon'>
           <img
             src={Andre}
             id='landingLogo'
