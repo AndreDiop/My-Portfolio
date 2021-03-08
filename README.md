@@ -45,7 +45,7 @@ This is a living document and will be where I display my learned skills of web d
 ## Screenshots
 
 
-Coming soon!
+![Functionality of my portfolio from splash page to displaying my work](https://media.giphy.com/media/I2ahWSyGFgaGUHKFAj/giphy.gif)
 
 ## Contributing
 
