@@ -43,7 +43,7 @@ or through the Github repository below.
 
 ## Usage
 
-This is a living document and will be where I display my learned skills of web development. Visitors will be able to reach me through a variety of mediums including; email, telephone, linkedin, facebook and twitter
+This is a living document and will be where I display my learned skills of web development. Visitors will be able to reach me through a variety of mediums including; email, telephone, Linkedin, Github and Twitter
 ## Screenshots
 
 
