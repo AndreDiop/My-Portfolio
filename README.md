@@ -16,13 +16,11 @@
 
 # Welcome
 
-My personal portfolio is built with React and features a nes.css framework and css3 for the front end design. 
+My personal portfolio build with React and features a nes.css framework and css3 for the front end design. 
 The design was inspired by early nintendo games and callsback to an early 90's aethetic and upon discovering the nes.css, I knew it
 would be the perfect framework to bring my vision to life. 
 
 Displayed are gifs of the functionality of my site and visitors will also be able to view my resume and my contact info.
-
-
 
 
 
