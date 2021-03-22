@@ -1,18 +1,30 @@
 import React from "react";
+import "../PortfolioCard/styles.css"
 
-const index = ({name, picture, deployedLink,githubLink}) => {
+const index = ({ name, picture, deployedLink, githubLink, projectInfo }) => {
   return (
     <div className="nes-balloon nes-pointer" id="portfolioCard">
       <p> {name}</p>
-      <img
-        src={picture}
-        width="360"
-        height="180"
-        id="id"
-        alt="alt text here"
-      />
+      <img src={picture} width="360" height="180" id="id" alt="alt text here" />
 
       <hr />
+   
+  <p> {projectInfo} </p>
+{/* 
+      <hr/>
+      <p>Tech used in the app was</p>
+      <hr /> */}
+   
+      {/* <a href="#" id="badge" className="nes-badge">
+  <span className="is-warning">Javascript</span>
+</a>
+      <a href="#" id="badge" className="nes-badge">
+  <span className="is-warning">Javascript</span>
+</a> */}
+
+      <hr/>
+
+
       <a className="nes-btn" href={githubLink} id="portfolioRepoButton">
         Github Repo
       </a>
@@ -24,6 +36,8 @@ const index = ({name, picture, deployedLink,githubLink}) => {
       >
         Deployed Link
       </a>
+    
+ 
     </div>
   );
 };
