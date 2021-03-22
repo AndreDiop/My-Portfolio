@@ -4,34 +4,39 @@
     "name": "Password Generator",
     "picture": "https://media.giphy.com/media/h1YCsA278Ho14YeXiP/giphy.gif",
     "githubLink": "https://github.com/AndreDiop/Password-Generator",
-    "deployedLink": "https://andrediop.github.io/Password-Generator/"
+    "deployedLink": "https://andrediop.github.io/Password-Generator/",
+    "projectInfo": "This application allows users to generate passwords that they select based on requirement criteria of length, type-case, special characters, and number."
   },
   {
     "id": "2",
     "name": "Tradecraft Messages",
     "picture": "https://media.giphy.com/media/dv2uov34rxTHudMMKZ/giphy.gif",
     "githubLink": "https://github.com/AndreDiop/Tradecraft-Messages",
-    "deployedLink": "https://tradecraft-messages.herokuapp.com/"
+    "deployedLink": "https://tradecraft-messages.herokuapp.com/",
+    "projectInfo": "Tradecraft allows users to communicate messages to one another and delete the message’s instance, allowing conversations between them to remain private and secure."
   },
   {
     "id": "3",
     "name": "Promethium",
     "picture": "https://media.giphy.com/media/8Yasv8wQ6mU0fsHYqP/giphy.gif",
     "githubLink": "https://github.com/AndreDiop/promethium",
-    "deployedLink": "https://promethium.herokuapp.com/"
+    "deployedLink": "https://promethium.herokuapp.com/",
+    "projectInfo":"Promethium allows users to create, view, update and delete the contents of their closets. Users are also able to build outfits based on the garments in their closets."
   },
   {
     "id": "4",
     "name": "5 Day Weather Tracker",
     "picture": "https://media.giphy.com/media/pibYgjnAVT4EOByLjt/giphy.gif",
     "githubLink": "https://github.com/AndreDiop/5-Day-Forecast",
-    "deployedLink": "https://andrediop.github.io/5-Day-Forecast/"
+    "deployedLink": "https://andrediop.github.io/5-Day-Forecast/",
+    "projectInfo":"5 Day Weather App gives users real-time weather info. Users can enter any city and see the weather conditions for that location. Users are also able to save locations for future viewing."
   },
   {
     "id": "5",
     "name": "Travel Budget",
     "picture": "https://media.giphy.com/media/NLZFKiaWFXQYcazhsR/giphy.gif",
     "githubLink": "https://github.com/AndreDiop/Travel-Budget",
-    "deployedLink": "https://the-travel-budget.herokuapp.com/"
+    "deployedLink": "https://the-travel-budget.herokuapp.com/",
+    "projectInfo":"Travel Budget is a PWA (progressive web app) that allows users to track their budgets and provides offline access and functionality."
   }
 ]
