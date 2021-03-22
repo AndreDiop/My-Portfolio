@@ -1,9 +1,7 @@
 .nes-badge {
   flex-direction: row;
-  /* align-self: center; */
+
   order: 5;
 
-    /* display: flex; */
-  /* align-items: center; */
   justify-content: center;
 }
