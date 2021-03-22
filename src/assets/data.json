@@ -1,42 +1,65 @@
 [
   {
     "id": "1",
+    "name": "Community Chest ",
+    "picture": "https://github.com/AndreDiop/Community-Chest/blob/main/client/src/assets/images/Community-chest.gif?raw=true",
+    "githubLink": "https://github.com/AndreDiop/Community-Chest",
+    "deployedLink": "https://community-chest134.herokuapp.com/",
+    "projectInfo": "Community-Chest allows users to create, maintain and update community fridges in their neighborhoods with items from fresh produce to home-cooked meals — along with sanitary products and other health-related supplies to those in need, no questions asked.",
+    "tech1": ["React"],
+    "tech2": ["Express"],
+    "tech3": ["APIs"]
+  },
+  {
+    "id": "2",
     "name": "Password Generator",
     "picture": "https://media.giphy.com/media/h1YCsA278Ho14YeXiP/giphy.gif",
     "githubLink": "https://github.com/AndreDiop/Password-Generator",
     "deployedLink": "https://andrediop.github.io/Password-Generator/",
-    "projectInfo": "This application allows users to generate passwords that they select based on requirement criteria of length, type-case, special characters, and number."
+    "projectInfo": "This application allows users to generate passwords that they select based on requirement criteria of length, type-case, special characters, and number.",
+    "tech1": ["Javascript"],
+    "tech2": ["CSS"]
   },
   {
-    "id": "2",
+    "id": "3",
     "name": "Tradecraft Messages",
     "picture": "https://media.giphy.com/media/dv2uov34rxTHudMMKZ/giphy.gif",
     "githubLink": "https://github.com/AndreDiop/Tradecraft-Messages",
     "deployedLink": "https://tradecraft-messages.herokuapp.com/",
-    "projectInfo": "Tradecraft allows users to communicate messages to one another and delete the message’s instance, allowing conversations between them to remain private and secure."
+    "projectInfo": "Tradecraft allows users to communicate messages to one another and delete the message’s instance, allowing conversations between them to remain private and secure.",
+    "tech1": ["Node.js"],
+    "tech2": ["Express"]
   },
   {
-    "id": "3",
+    "id": "4",
     "name": "Promethium",
     "picture": "https://media.giphy.com/media/8Yasv8wQ6mU0fsHYqP/giphy.gif",
     "githubLink": "https://github.com/AndreDiop/promethium",
     "deployedLink": "https://promethium.herokuapp.com/",
-    "projectInfo":"Promethium allows users to create, view, update and delete the contents of their closets. Users are also able to build outfits based on the garments in their closets."
+    "projectInfo": "Promethium allows users to create, view, update and delete the contents of their closets. Users are also able to build outfits based on the garments in their closets.",
+    "tech1": ["Javascript"],
+    "tech2": ["Handlebars"]
   },
   {
-    "id": "4",
+    "id": "5",
     "name": "5 Day Weather Tracker",
     "picture": "https://media.giphy.com/media/pibYgjnAVT4EOByLjt/giphy.gif",
     "githubLink": "https://github.com/AndreDiop/5-Day-Forecast",
     "deployedLink": "https://andrediop.github.io/5-Day-Forecast/",
-    "projectInfo":"5 Day Weather App gives users real-time weather info. Users can enter any city and see the weather conditions for that location. Users are also able to save locations for future viewing."
+    "projectInfo": "5 Day Weather App gives users real-time weather info. Users can enter any city and see the weather conditions for that location. Users are also able to save locations for future viewing.",
+    "tech1": ["Bootstrap"],
+    "tech2": ["APIs"]
+  
   },
   {
-    "id": "5",
+    "id": "6",
     "name": "Travel Budget",
     "picture": "https://media.giphy.com/media/NLZFKiaWFXQYcazhsR/giphy.gif",
     "githubLink": "https://github.com/AndreDiop/Travel-Budget",
     "deployedLink": "https://the-travel-budget.herokuapp.com/",
-    "projectInfo":"Travel Budget is a PWA (progressive web app) that allows users to track their budgets and provides offline access and functionality."
+    "projectInfo": "Travel Budget allows users to track their budgets and provides offline access and functionality.",
+    "tech1": ["MongoDb"],
+    "tech2": ["Node.js"],
+    "tech3": ["Express"]
   }
 ]
