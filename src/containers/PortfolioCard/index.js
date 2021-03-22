@@ -33,13 +33,19 @@ const index = ({
 
       <hr />
 
-      <a className="nes-btn" href={githubLink} id="portfolioRepoButton">
+      <a
+        className="nes-btn"
+        href={githubLink}
+        target="_blank"
+        id="portfolioRepoButton"
+      >
         Github Repo
       </a>
 
       <a
         className="nes-btn is-primary"
         href={deployedLink}
+        target="_blank"
         id="portfolioDeployLinkButton"
       >
         Deployed Link
