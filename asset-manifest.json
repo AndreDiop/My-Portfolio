@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.25fdb81f.chunk.css",
-    "main.js": "/static/js/main.aeeac5ce.chunk.js",
-    "main.js.map": "/static/js/main.aeeac5ce.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.cb5db1cd.js",
-    "runtime-main.js.map": "/static/js/runtime-main.cb5db1cd.js.map",
-    "static/js/2.a1ab2499.chunk.js": "/static/js/2.a1ab2499.chunk.js",
-    "static/js/2.a1ab2499.chunk.js.map": "/static/js/2.a1ab2499.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.25fdb81f.chunk.css.map": "/static/css/main.25fdb81f.chunk.css.map",
-    "static/js/2.a1ab2499.chunk.js.LICENSE.txt": "/static/js/2.a1ab2499.chunk.js.LICENSE.txt",
-    "static/media/andreFull.ccacb663.png": "/static/media/andreFull.ccacb663.png"
+    "main.css": "/andrediop.github.io/react-portfolio/static/css/main.25fdb81f.chunk.css",
+    "main.js": "/andrediop.github.io/react-portfolio/static/js/main.aeeac5ce.chunk.js",
+    "main.js.map": "/andrediop.github.io/react-portfolio/static/js/main.aeeac5ce.chunk.js.map",
+    "runtime-main.js": "/andrediop.github.io/react-portfolio/static/js/runtime-main.4dd334b6.js",
+    "runtime-main.js.map": "/andrediop.github.io/react-portfolio/static/js/runtime-main.4dd334b6.js.map",
+    "static/js/2.a1ab2499.chunk.js": "/andrediop.github.io/react-portfolio/static/js/2.a1ab2499.chunk.js",
+    "static/js/2.a1ab2499.chunk.js.map": "/andrediop.github.io/react-portfolio/static/js/2.a1ab2499.chunk.js.map",
+    "index.html": "/andrediop.github.io/react-portfolio/index.html",
+    "static/css/main.25fdb81f.chunk.css.map": "/andrediop.github.io/react-portfolio/static/css/main.25fdb81f.chunk.css.map",
+    "static/js/2.a1ab2499.chunk.js.LICENSE.txt": "/andrediop.github.io/react-portfolio/static/js/2.a1ab2499.chunk.js.LICENSE.txt",
+    "static/media/andreFull.ccacb663.png": "/andrediop.github.io/react-portfolio/static/media/andreFull.ccacb663.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.cb5db1cd.js",
+    "static/js/runtime-main.4dd334b6.js",
     "static/js/2.a1ab2499.chunk.js",
     "static/css/main.25fdb81f.chunk.css",
     "static/js/main.aeeac5ce.chunk.js"
