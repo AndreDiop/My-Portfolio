@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/andrediop.dev/static/css/main.25fdb81f.chunk.css",
-    "main.js": "/andrediop.dev/static/js/main.aeeac5ce.chunk.js",
-    "main.js.map": "/andrediop.dev/static/js/main.aeeac5ce.chunk.js.map",
-    "runtime-main.js": "/andrediop.dev/static/js/runtime-main.012c3784.js",
-    "runtime-main.js.map": "/andrediop.dev/static/js/runtime-main.012c3784.js.map",
-    "static/js/2.a1ab2499.chunk.js": "/andrediop.dev/static/js/2.a1ab2499.chunk.js",
-    "static/js/2.a1ab2499.chunk.js.map": "/andrediop.dev/static/js/2.a1ab2499.chunk.js.map",
-    "index.html": "/andrediop.dev/index.html",
-    "static/css/main.25fdb81f.chunk.css.map": "/andrediop.dev/static/css/main.25fdb81f.chunk.css.map",
-    "static/js/2.a1ab2499.chunk.js.LICENSE.txt": "/andrediop.dev/static/js/2.a1ab2499.chunk.js.LICENSE.txt",
-    "static/media/andreFull.ccacb663.png": "/andrediop.dev/static/media/andreFull.ccacb663.png"
+    "main.css": "/andrediop.github.io/react-portfolio/static/css/main.25fdb81f.chunk.css",
+    "main.js": "/andrediop.github.io/react-portfolio/static/js/main.aeeac5ce.chunk.js",
+    "main.js.map": "/andrediop.github.io/react-portfolio/static/js/main.aeeac5ce.chunk.js.map",
+    "runtime-main.js": "/andrediop.github.io/react-portfolio/static/js/runtime-main.4dd334b6.js",
+    "runtime-main.js.map": "/andrediop.github.io/react-portfolio/static/js/runtime-main.4dd334b6.js.map",
+    "static/js/2.a1ab2499.chunk.js": "/andrediop.github.io/react-portfolio/static/js/2.a1ab2499.chunk.js",
+    "static/js/2.a1ab2499.chunk.js.map": "/andrediop.github.io/react-portfolio/static/js/2.a1ab2499.chunk.js.map",
+    "index.html": "/andrediop.github.io/react-portfolio/index.html",
+    "static/css/main.25fdb81f.chunk.css.map": "/andrediop.github.io/react-portfolio/static/css/main.25fdb81f.chunk.css.map",
+    "static/js/2.a1ab2499.chunk.js.LICENSE.txt": "/andrediop.github.io/react-portfolio/static/js/2.a1ab2499.chunk.js.LICENSE.txt",
+    "static/media/andreFull.ccacb663.png": "/andrediop.github.io/react-portfolio/static/media/andreFull.ccacb663.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.012c3784.js",
+    "static/js/runtime-main.4dd334b6.js",
     "static/js/2.a1ab2499.chunk.js",
     "static/css/main.25fdb81f.chunk.css",
     "static/js/main.aeeac5ce.chunk.js"
