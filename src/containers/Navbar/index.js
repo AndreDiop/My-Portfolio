@@ -37,7 +37,7 @@ const index = () => {
 
         <a
           className="nes-btn is-error"
-          href="https://drive.google.com/file/d/1ijNElXMM7rsAbjqAI2iX8OoL5N1QE24Z/view?usp=sharing"
+          href="https://drive.google.com/file/d/1C-R7clsUysHrI5TUhAPUw8geayFC7pq_/view?usp=sharing"
           id="resumeButton"
           target="_blank"
         >
