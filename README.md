@@ -36,13 +36,13 @@ This is a React App with a Nes.css framework front end. Axios is used to make AP
 Users will access the page through either the direct link to the deployed application
 
 
-[Link to deployed site](https://andrediop.github.io/my-portfolio/)
+[Link to deployed site](https://andrediop.github.io/react-portfolio/#/)
 
 
 or through the Github repository below.
 
 
-[Link to Github repository](https://github.com/AndreDiop/my-portfolio)
+[Link to Github repository](https://github.com/AndreDiop/react-portfolio)
 
 
 ## Usage
